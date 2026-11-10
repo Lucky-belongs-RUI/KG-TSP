@@ -3,7 +3,7 @@
 A knowledge graph completion (KGC) method based on pretrained language models (BERT) and path-enhanced prompting. It converts KG entities, relations, and graph structural paths into textual prompts, then uses a BERT dual-encoder for link prediction.
 
 <p align="center">
-<img src="fig/model.pdf" alt="Model Architecture">
+<img src="fig/model.png" alt="Model Architecture">
 </p>
 <p align="center">
 <sub>Figure 1: Model Architecture</sub>
