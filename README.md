@@ -195,18 +195,9 @@ output/
     └── backward_details_model_last.json   # Backward prediction details
 ```
 
-## Pretrained Model Checkpoints
 
-Trained model checkpoints for each dataset are available for direct evaluation and reproduction:
 
-| Dataset | Download Link | Training Config | Metrics (MRR / Hit@1 / Hit@3 / Hit@10) |
-|---------|--------------|-----------------|----------------------------------------|
-| WN18RR | [TBD]() | [train_wn18rr.sh](scripts/train_wn18rr.sh) | TBD |
-| FB15k237 | [TBD]() | [train_fb15k237.sh](scripts/train_fb15k237.sh) | TBD |
-| NELL-995 | [TBD]() | [train_nell.sh](scripts/train_nell.sh) | TBD |
-| umls | [TBD]() | [train_umls.sh](scripts/train_umls.sh) | TBD |
-
-### Evaluate with Downloaded Checkpoint
+## Evaluate with Downloaded Checkpoint
 
 ```bash
 # Download the checkpoint for your dataset, then run evaluation
